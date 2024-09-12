@@ -1,0 +1,75 @@
+/* General styles */
+body {
+    margin: 20px;
+    padding: 0;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f0f4f9;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #929b96;
+    color: rgb(241, 8, 8);
+    padding: 1px 0;
+    text-align: center;
+}
+
+/* Form styles */
+form {
+    max-width: 600px;
+    margin:auto;
+    background-color: rgb(111, 247, 247);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.5);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Fieldset */
+fieldset {
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aquamarine;
+
+}
+
+/* Legend */
+legend {
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+/* Label */
+label {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: black
+}
+
+/* Input and Textarea */
+input,textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #929b96;
+    box-sizing: border-box;
+ 
+}
+/* Button */
+button {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+button:hover {
+    background-color: aqua;
+}
+
